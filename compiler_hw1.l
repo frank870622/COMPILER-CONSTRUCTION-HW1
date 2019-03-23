@@ -110,7 +110,7 @@ int main(int argc,char *argv[])
 	yylex();
 
 	printf("\nParse over, the line number is %d.\n", num_lines);
-	printf("\ncomment: %d lines\n", comment_lines);
+	printf("\ncomment: %d lines\n\n", comment_lines);
 
 	return 0;
 }
