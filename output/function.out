@@ -1,8 +1,8 @@
 int 	 INT
 main 	 ID
-( 	 LB 
+( 	 LB
 ) 	 RB
-{ 	 LCB 
+{ 	 LCB
 return 	 RET
 0 	 I_CONST
 ; 	 SEMICOLON

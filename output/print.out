@@ -1,5 +1,5 @@
 print 	 PRINT
-( 	 LB 
+( 	 LB
 " 	 QUOTA
 Hello World 	 STR_CONST
 " 	 QUOTA

@@ -3,44 +3,44 @@
  */ 	 C Comment
 int 	 INT
 main 	 ID
-( 	 LB 
+( 	 LB
 ) 	 RB
-{ 	 LCB 
-// Declaration 	 C++ Comment 
+{ 	 LCB
+// Declaration 	 C++ Comment
 int 	 INT
 x 	 ID
 ; 	 SEMICOLON
 int 	 INT
 a 	 ID
-= 	 ASGN 
+= 	 ASGN
 5 	 I_CONST
 ; 	 SEMICOLON
 string 	 STRING
 y 	 ID
-= 	 ASGN 
+= 	 ASGN
 " 	 QUOTA
 Hello World 	 STR_CONST
 " 	 QUOTA
 ; 	 SEMICOLON
 print 	 PRINT
-( 	 LB 
+( 	 LB
 y 	 ID
 ) 	 RB
 ; 	 SEMICOLON
-// if condition 	 C++ Comment 
+// if condition 	 C++ Comment
 if 	 IF
-( 	 LB 
+( 	 LB
 a 	 ID
-> 	 MT 
+> 	 MT
 10 	 I_CONST
 ) 	 RB
-{ 	 LCB 
+{ 	 LCB
 x 	 ID
-+= 	 ADDASGN 
++= 	 ADDASGN
 a 	 ID
 ; 	 SEMICOLON
 print 	 PRINT
-( 	 LB 
+( 	 LB
 x 	 ID
 ) 	 RB
 ; 	 SEMICOLON
