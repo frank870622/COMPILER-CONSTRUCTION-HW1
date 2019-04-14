@@ -75,7 +75,8 @@ Cplus_commit "//"(.)*\n
 {float}		{ printf("%s \t F_CONST\n", yytext); }
 {string}	{ 
 				printf("\" \t QUOTA\n");
-				printf("%.*s \t STR_CONST\n", (int)(strlen(yytext)-2), yytext+1);
+				if((int)(strlen(yytext)) > 2)
+					printf("%.*s \t STR_CONST\n", (int)(strlen(yytext)-2), yytext+1);
 				printf("\" \t QUOTA\n");
 			}
 {C_commit}		{ 
