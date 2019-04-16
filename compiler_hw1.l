@@ -14,8 +14,8 @@
 letter [a-zA-Z]
 digit [0-9]
 id {letter}+({letter}|{digit})*
-integer [+|-]?{digit}+ 
-float [+|-]?{digit}+[.]{digit}+
+integer {digit}+ 
+float {digit}+[.]{digit}+
 string "\""([^"]|\r|\n|\\\")*"\""
 C_commit "/*"((\*+[^/*])|([^*]))*\**"*/"
 Cplus_commit "//"(.)*\n
